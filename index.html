@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>To Do App</h1>
+      <div>
+        <input type="text" id="input_value" placeholder="Enter a task here" />
+        <button onclick="add_save()" id="addSave">SAVE</button>
+      </div>
+      <br />
+      <div>
+        <input type="text" id="search" />
+        <button id="button_search" onclick="search_item()">click</button>
+      </div>
+      <span id="error">vùi lòng nhập </span>
+      <table>
+        <tr>
+          <th>No.</th>
+          <th>Todo Item</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+        <tbody id="push"></tbody>
+        <!-- <tr>
+          <td>1</td>
+          <td>buy flowers for girlfrend</td>
+          <td>In progress</td>
+          <td>
+            <button class="edit-button">EDIT</button
+            ><button class="delete-button">DELETE</button
+            ><button class="finished-button">FiNISHED</button>
+          </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>buy flowers for girlfrend</td>
+          <td>In progress</td>
+          <td>
+            <button class="edit-button">EDIT</button
+            ><button class="delete-button">DELETE</button
+            ><button class="finished-button">FiNISHED</button>
+          </td>
+        </tr> -->
+      </table>
+    </div>
+  </body>
+  <script src="js.js"></script>
+</html>
